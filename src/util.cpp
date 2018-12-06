@@ -321,7 +321,7 @@ fs::path GetDefaultDataDir() {
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Bitcoin";
+    return pathRet / "Library/Application Support/BitcoinSV";
 #else
     // Unix
     return pathRet / ".bitcoin";
